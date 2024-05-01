@@ -1,6 +1,6 @@
 [
     [
-      { "image": "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg", "title": "Project 1", "link": "https://example.com/project1" },
+      { "image": "./thefooods.png", "title": "The Fooods (Frontend & Backend)", "link": "https://thefooods.com/" },
       { "image": "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg", "title": "Project 2", "link": "https://example.com/project2" },
       { "image": "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg", "title": "Project 3", "link": "https://example.com/project3" }
     ],
