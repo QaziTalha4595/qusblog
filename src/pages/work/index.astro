@@ -12,19 +12,35 @@ import LinkButton from "@components/LinkButton.astro";
   <Breadcrumbs />
   <main id="main-content">
     <section id="about" class="prose mb-28 max-w-3xl prose-img:border-0">
-        <h1 class="text-2xl tracking-wider sm:text-3xl">My Works</h1>
-        <div class="grid grid-cols-2 gap-4 mt-8">
-          <!-- Gallery Item 1 -->
-          <div class="relative overflow-hidden rounded-lg">
-            <img class="object-cover w-full h-full" src="https://images.pexels.com/photos/249798/pexels-photo-249798.png?auto=compress&cs=tinysrgb&w=600" alt="Work 1">
-          </div>
-          <!-- Gallery Item 2 -->
-          <div class="relative overflow-hidden rounded-lg">
-            <img class="object-cover w-full h-full" src="https://images.pexels.com/photos/249798/pexels-photo-249798.png?auto=compress&cs=tinysrgb&w=600" alt="Work 2">
-          </div>
-          <!-- Add more gallery items as needed -->
+      <h1 class="text-2xl tracking-wider sm:text-3xl">My Works</h1>
+      <div class="grid grid-cols-2 gap-4 mt-8">
+        <!-- Gallery Item 1 -->
+        <div class="relative overflow-hidden rounded-lg">
+          <a href="https://flowbite.s3.amazonaws.com/docs/gallery/square/work1" class="block w-full h-full">
+            <img class="object-cover w-full h-full" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg" alt="Work 1">
+            <div class="absolute inset-0 flex items-center justify-center">
+              <div class="text-center">
+                <h2 class="text-white text-lg font-bold"><a href="https://flowbite.s3.amazonaws.com/docs/gallery/square/work1" class="hover:underline">Work 1 Title</a></h2>
+                <p class="text-white text-sm">View Work 1</p>
+              </div>
+            </div>
+          </a>
         </div>
-      </section>
+        <!-- Gallery Item 2 -->
+        <div class="relative overflow-hidden rounded-lg">
+          <a href="https://flowbite.s3.amazonaws.com/docs/gallery/square/work2" class="block w-full h-full">
+            <img class="object-cover w-full h-full" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg" alt="Work 2">
+            <div class="absolute inset-0 flex items-center justify-center">
+              <div class="text-center">
+                <h2 class="text-white text-lg font-bold"><a href="https://flowbite.s3.amazonaws.com/docs/gallery/square/work2" class="hover:underline">Work 2 Title</a></h2>
+                <p class="text-white text-sm">View Work 2</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- Add more gallery items as needed -->
+      </div>
+    </section>
   </main>
 
   <Footer />
