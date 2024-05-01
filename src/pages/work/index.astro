@@ -5,6 +5,8 @@ import Header from "@components/Header.astro";
 import Footer from "@components/Footer.astro";
 import Breadcrumbs from "@components/Breadcrumbs.astro";
 import LinkButton from "@components/LinkButton.astro";
+import projectsData from "src/projects.json";
+
 ---
 
 <Layout title={`My Works | ${SITE.title}`}>
@@ -13,66 +15,21 @@ import LinkButton from "@components/LinkButton.astro";
   <main id="main-content">
     <section id="about" class="prose mb-28 max-w-3xl prose-img:border-0">
       <h1 class="text-2xl tracking-wider sm:text-3xl">My Works</h1>
-      
 
-<div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-    <div class="grid">
-        <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg" alt="">
-            <p>work 1</p>
-        </div>
-        <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg" alt="">
-            <p>work 2</p>
-        </div>
-        <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg" alt="">
-            <p>work 3</p>
-        </div>
-    </div>
-    <div class="grid">
-        <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg" alt="">
-            <p>work 4</p>
-        </div>
-        <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg" alt="">
-            <p>work 5</p>
-        </div>
-        <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg" alt="">
-            <p>work 6</p>
-        </div>
-    </div>
-    <div class="grid">
-        <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg" alt="">
-            <p>work 7</p>
-        </div>
-        <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg" alt="">
-            <p>work 8</p>
-        </div>
-        <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg" alt="">
-            <p>work 9</p>
-        </div>
-    </div>
-    <div class="grid">
-        <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg" alt="">
-            <p>work 9</p>
-        </div>
-        <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg" alt="">
-            <p>work 10</p>
-        </div>
-        <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg" alt="">
-            <p>work 11</p>
-        </div>
-    </div>
-</div>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        {projectsData.map((row, rowIndex) => (
+          <div key={rowIndex} class="grid">
+            {row.map((project, colIndex) => (
+              <div key={colIndex}>
+                <a href={project.link} target="_blank" rel="noopener noreferrer">
+                  <img class="h-auto max-w-full rounded-lg" src={project.image} alt={project.title} />
+                </a>
+                <p><a href={project.link} target="_blank" rel="noopener noreferrer">{project.title}</a></p>
+              </div>
+            ))}
+          </div>
+        ))}
+      </div>
 
     </section>
   </main>
