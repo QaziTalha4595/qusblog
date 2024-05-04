@@ -1,7 +1,8 @@
 [
     [
       { "image": "../projects/thefooods.png", "title": "The Fooods (Frontend & Backend)", "link": "https://thefooods.com/" },
-      { "image": "../projects/laribaa.png", "title": "Laribaa Banking System", "link": "http://bilimtechnologies.com/products/laribaa" }
+      { "image": "../projects/laribaa.png", "title": "Laribaa Banking System", "link": "http://bilimtechnologies.com/products/laribaa" },
+      { "image": "../projects/educationexpo.png", "title": "Aurangabad Education Expo Website", "link": "https://educationexpo.org/" }
     ],
     [
       { "image": "../projects/campusconnect.png", "title": "Campus Connect", "link": "http://bilimtechnologies.com/products/campus_connekt" },

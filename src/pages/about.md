@@ -2,16 +2,12 @@
 layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
+## Who is Qu?
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
-
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
-
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
+Hello my name is Qu. Im a Full Stack Web Developer but I also Dabble in Everything programming related "Jack of All Trades Master of None" as they say but IMO I think being a jack of all trades is far better than just being a one trick pony. I also really like collecting Data and Knowledge and thats about it really thats all you need to know
 
 <div>
-  <img src="/assets/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
+  <img src="/assets/voyage.png" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
 </div>
 
 ## Tech Stack
@@ -27,7 +23,7 @@ Here are certain features of this site.
 - light & dark mode
 - fuzzy search
 - super fast performance
-- draft posts
+- draft posts 
 - pagination
 - sitemap & rss feed
 - highly customizable
