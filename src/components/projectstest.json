@@ -1,0 +1,47 @@
+[
+  {
+    "image": "../projects/educationexpo.png",
+    "title": "Aurangabad Education Expo Website",
+    "link": "https://educationexpo.org/"
+  },
+  {
+    "image": "../projects/thefooods.png",
+    "title": "The Fooods (Frontend & Backend)",
+    "link": "https://thefooods.com/"
+  },
+  {
+    "image": "../projects/laribaa.png",
+    "title": "Laribaa Banking System",
+    "link": "http://bilimtechnologies.com/products/laribaa"
+  },
+  {
+    "image": "../projects/campusconnect.png",
+    "title": "Campus Connect",
+    "link": "http://bilimtechnologies.com/products/campus_connekt"
+  },
+  {
+    "image": "../projects/palmarabia.png",
+    "title": "Palm Arabia Trading",
+    "link": "http://palmarabiatrading.com/"
+  },
+  {
+    "image": "../projects/arhangold.png",
+    "title": "Arhan Gold and Diamonds",
+    "link": "https://arhangold.in/"
+  },
+  {
+    "image": "../projects/nippen.png",
+    "title": "Nippen Electrical Instruments Co.",
+    "link": "https://www.nippenco.com/"
+  },
+  {
+    "image": "../projects/maxbuilding.jpg",
+    "title": "Max Building Solutions",
+    "link": "https://www.maxbuildingsolution.com"
+  },
+  {
+    "image": "../projects/popular4u.jpg",
+    "title": "Popular Electrical & Security Services.",
+    "link": "https://popular4u.in/"
+  }
+]
