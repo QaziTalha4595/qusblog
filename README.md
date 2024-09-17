@@ -1,6 +1,4 @@
-# AstroPaper 📄
-
-
+# Qu's Blog
 
 My Blog Created with AstroPaper a minimal, responsive, accessible and SEO-friendly Astro blog theme.
 
