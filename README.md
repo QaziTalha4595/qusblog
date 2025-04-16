@@ -67,4 +67,3 @@ All blog posts are stored in `src/content/blog` directory.
 
 ---
 
-Original Template Made by [Sat Naing](https://satnaing.dev) 👨🏻‍💻 and [contributors](https://github.com/satnaing/astro-paper/graphs/contributors).
