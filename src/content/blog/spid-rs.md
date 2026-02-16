@@ -1,5 +1,5 @@
 ---
-title: spid-rs : Why I Built Yet Another Web Crawler (and Why It’s in Rust)
+title: spid-rs. Why I Built Yet Another Web Crawler (and Why It’s in Rust)
 author: Quazi Talha
 pubDatetime: 2026-02-16T06:06:31Z
 slug: spid-rs
