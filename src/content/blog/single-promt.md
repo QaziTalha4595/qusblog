@@ -12,7 +12,8 @@ tags:
 description: A reflective, experience-driven exploration of why iterative AI prompting often fails, and how the Single Prompt Philosophy can produce more coherent software systems.
 ---
 
-<img src="https://github.com/QaziTalha4595/qusblog/blob/a63246367e6804483510164ad8009bda7f0c9787/public/blog/singlepromt.png" alt="AI Agents, Technical Debt, and the Single Prompt Philosophy">
+<img src="https://raw.githubusercontent.com/QaziTalha4595/qusblog/a63246367e6804483510164ad8009bda7f0c9787/public/blog/singlepromt.png
+" alt="AI Agents, Technical Debt, and the Single Prompt Philosophy">
 
 After having extensively trying out every AI agent on the model. I've come to realize that it in fact will almost always fail to deliver a coherent product if you keep prompting it.. just look cursor's "Scaling long-running autonomous coding" — thousands of AI agents and millions of prompts later it failed to even make a functioning browser... to me the lesson from that experiment was that AI agents as they are now are incapable of "refining" a product, at least not in the human sense. This is simply because they have limited context, and no matter how large that context window becomes, it will never fully account for all consequences of the changes it makes. Technical debt quietly accumulates. Interfaces drift. Assumptions conflict. Eventually the system reaches a point where even if you ran it for a thousand years, it would never converge to something coherent.
 
